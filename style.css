@@ -344,8 +344,9 @@ button {
 @media screen and (max-width: 539px) {
   .main-article-img {
     width: 100%;
-    max-width: 280px;
-    max-height: 155px;
+    max-width: 100%;
+    /* max-height: 155px; */
+    min-height: 250px;
   }
 }
 .other-articles {
@@ -557,8 +558,14 @@ button {
 }
 @media screen and (max-width: 540px) {
 .last-select-all-articles {
-    margin: 0 85px;
+    margin: 0 140px;
+    
   } 
+}
+@media screen and (max-width: 419px) {
+  .last-select-all-articles {
+    margin: 0 85px;
+  }
 }
 .select-all-articles span {
   font-weight: 700;
@@ -783,6 +790,7 @@ button {
 @media screen and (max-width: 539px) {
   .pages-button-wrapper {
     left: 0;
+    margin: 0 calc((100% - 283px)/2);
     flex-wrap: wrap;
     min-width: 280px;
   }
