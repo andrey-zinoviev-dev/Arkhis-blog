@@ -562,7 +562,7 @@ button {
     
   } 
 }
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 400px) {
   .last-select-all-articles {
     margin: 0 85px;
   }
