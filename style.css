@@ -432,6 +432,10 @@ button {
   .arrow {
     padding: 15px 0;
     min-width: 130px;
+    width: 50%;
+  }
+  .arrow:not(:last-of-type) {
+    margin-right: 16px;
   }
 }
 .arrow-article {
@@ -455,7 +459,7 @@ button {
 }
 @media screen and (max-width: 539px) {
   .arrow-article {
-    min-width: 140px;
+    min-width: 130px;
     padding: 9px 10px;
   }
 }
@@ -549,6 +553,12 @@ button {
     min-width: 38px;
     min-height: 40px;
   }
+  .articles-page:not(:last-of-type) {
+    margin-right: 16px;
+  }
+  .articles-page.no-margin-button {
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 719px) {
   .articles-page {
@@ -558,14 +568,18 @@ button {
 }
 @media screen and (max-width: 539px) {
   .articles-page {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}
+/* @media screen and (max-width: 1919px) {
+  .articles-page {
     min-width: 45px;
     min-height: 40px;
-    margin-top: 12px;
-  }
+  } */
   .articles-page-hidden {
     display: none;
   }
-}
 .articles-page:hover {
   border: 1px solid #12C9D3;
   color: #12C9D3;
@@ -573,6 +587,11 @@ button {
 .current-page {
   background-color: #12C9D3;
   color: #FFFFFF;
+}
+@media screen and (max-width: 1919px) {
+  .select-page-interlude {
+    margin-right: 16px;
+  }
 }
 .select-all-articles {
   display: flex;
@@ -629,6 +648,11 @@ button {
 @media screen and (max-width: 1919px) {
   .select-articles-buttons .select-articles-wrapper {
     margin: 0 21px;
+  }
+}
+@media screen and (max-width: 539px) {
+  .select-articles-buttons .select-articles-wrapper {
+    margin: 0 10px;
   }
 }
 .main-artcle-headline {
@@ -853,6 +877,11 @@ button {
     padding: 96px 21px 0 21px;
   }
 }
+@media screen and (max-width: 539px) {
+  .select-articles-buttons .select-articles-bottom {
+    padding: 96px 10px 0 10px;
+  }
+}
 .pages-button-wrapper {
   min-width: 390px;
   display: flex;
@@ -861,22 +890,22 @@ button {
 }
 @media screen and (max-width: 1919px) {
   .pages-button-wrapper {
-    min-width: 300px;
+    min-width: 231px;
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 719px) {
   .pages-button-wrapper {
     position: absolute;
     top: 0;
-    left: 68px;
-    min-width: 390px;
+    margin: 0 calc((100% - 324px)/2);
+    min-width: 324px;
   }
 }
 @media screen and (max-width: 539px) {
   .pages-button-wrapper {
     left: 0;
     margin: 0 calc((100% - 283px)/2);
-    flex-wrap: wrap;
     min-width: 280px;
   }
 }
