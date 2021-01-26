@@ -577,9 +577,11 @@ button {
     min-width: 45px;
     min-height: 40px;
   } */
+@media screen and (max-width: 1919px) {
   .articles-page-hidden {
     display: none;
   }
+}
 .articles-page:hover {
   border: 1px solid #12C9D3;
   color: #12C9D3;
