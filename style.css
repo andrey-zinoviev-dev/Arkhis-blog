@@ -4,13 +4,6 @@ body {
   font-family: 'Circe', Arial, sans-serif;
   width: 100%;
 }
-/* @media (-webkit-min-device-pixel-ratio: 1.5) {
-  .first-article {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-} */
 button {
   padding: 0;
   background: none;
@@ -174,7 +167,7 @@ button {
 .main-article-section {
   padding: 148px 0 80px 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main {
     padding: 124px 0 56px 0;
   }
@@ -190,28 +183,22 @@ button {
 .main-article-opened {
   padding: 60px 0 0 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main-wrapper {
     margin: 0 20px;
   }
 }
 .main-wrapper-article {
-  margin: 0 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media screen and (max-width: 800px) {
-  .main-wrapper-article {
-    margin: 0;
-  }
 }
 .first-article {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .first-article {
     display: block;
   }
@@ -220,7 +207,7 @@ button {
   max-width: 800px;
   width: 100%;
 }
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1024px) {
   .first-article .main-article-img {
     margin-bottom: 24px;
   }
@@ -231,7 +218,7 @@ button {
   justify-content: space-between;
   min-height: 290px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .article-text-wrapper {
     min-height: 154px;
     max-width: 419px;
@@ -251,7 +238,7 @@ button {
   min-height: 440px;
   max-width: 354px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .first-article .article-text-wrapper {
     max-width: 649px;
     min-height: 280px;
@@ -273,7 +260,7 @@ button {
   margin: 10px 0 0 0;
   min-height: 108px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .article-headline {
     font-size: 22px;
     line-height: 100%;  
@@ -287,7 +274,7 @@ button {
 .first-article .article-headline {
   margin: 16px 0 24px 0;
 }
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1024px) {
   .first-article .article-headline {
     margin: 16px 0;
     min-height: 44px;
@@ -299,7 +286,7 @@ button {
   color: #828282;
   margin: 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .article-para {
     display: none;
   }
@@ -349,7 +336,7 @@ button {
   min-height: 275px;
   object-fit: cover;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main-article-img {
     max-width: 200px;
     min-height: 154px;
@@ -375,7 +362,7 @@ button {
   grid-template-columns: repeat(3, 360px);
   justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .other-articles {
     margin: 48px 0;
     grid-template-columns: 100%;
@@ -384,7 +371,7 @@ button {
 .article {
   margin-bottom: 80px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .article {
     margin-bottom: 40px;
     max-width: 649px;
@@ -413,7 +400,7 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .arrow {
     min-width: 170px;
     padding: 8px 10px;
@@ -440,7 +427,7 @@ button {
   min-width: 250px;
   padding: 10px 40px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .arrow-article {
     min-width: 216px;
     padding: 9px 29px;
@@ -464,7 +451,7 @@ button {
 .arrow-article img {
   min-width: 18px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .arrow-article img {
     min-width: 13px;
   }
@@ -500,7 +487,7 @@ button {
 .arrow-left-img {
   margin-right: 6px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .arrow-left-img {
     margin-right: 0;
   }
@@ -509,13 +496,13 @@ button {
   font-size: 18px;
   font-weight: 700;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   .arrow-span {
     font-size: 13px;
     line-height: 135%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .arrow-left span, .arrow-right span {
     font-size: 16px;
     line-height: 135%;
@@ -545,8 +532,11 @@ button {
   line-height: 135%;
   font-weight: 700;
   outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .articles-page {
     min-width: 38px;
     min-height: 40px;
@@ -570,12 +560,7 @@ button {
     min-height: 50px;
   }
 }
-/* @media screen and (max-width: 1919px) {
-  .articles-page {
-    min-width: 45px;
-    min-height: 40px;
-  } */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .articles-page-hidden {
     display: none;
   }
@@ -588,7 +573,7 @@ button {
   background-color: #12C9D3;
   color: #FFFFFF;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .select-page-interlude {
     margin-right: 16px;
   }
@@ -597,7 +582,7 @@ button {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .select-all-articles {
     align-items: center;
   }
@@ -613,24 +598,14 @@ button {
     top: 48px;
   }
 }
-/* @media screen and (max-width: 540px) {
-.last-select-all-articles {
-    margin: 0 140px;
-    
-  } 
-}
-@media screen and (max-width: 400px) {
-  .last-select-all-articles {
-    margin: 0 85px;
-  }
-} */
+
 .select-all-articles span {
   font-weight: 700;
   font-size: 20px;
   line-height: 135%;
   margin-left: 8px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .select-all-articles span {
     font-size: 15px;
     margin-left: 3px;
@@ -645,7 +620,7 @@ button {
 .select-articles-buttons .select-articles-wrapper{
   max-width: 1240px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .select-articles-buttons .select-articles-wrapper {
     margin: 0 21px;
   }
@@ -664,7 +639,7 @@ button {
   margin: 0 auto;
   margin-bottom: 32px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main-artcle-headline {
     max-width: 680px;
   }
@@ -693,7 +668,7 @@ button {
   width: 100%;
   max-width: 1179px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .main-wrapper-article-img {
     margin: 48px 0;
     min-height: 320px;
@@ -705,7 +680,7 @@ button {
   margin: 0 auto;
   text-align: left;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .article-opened-content-wrapper {
     max-width: 561px;
   }
@@ -722,7 +697,7 @@ button {
   font-weight: 700;
   margin: 0 0 32px 0;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .article-opened-content-headline {
     line-height: 30px;
   }
@@ -795,7 +770,7 @@ button {
   font-size: 32px;
   margin: 32px 0 48px 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .headline-big-size {
     margin: 48px 0 40px 0;
   }
@@ -813,7 +788,7 @@ button {
   max-width: 642px;
   padding-left: 10px;
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 719px) {
   .content-ordered-list-element {
     font-size: 18px;
     line-height: 26px;
@@ -838,7 +813,7 @@ button {
   line-height: 28px;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 719px) {
   .content-unordered-list-element {
     font-size: 18px;
     line-height: 26px;
@@ -866,7 +841,7 @@ button {
   padding-top: 64px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .select-articles-buttons .select-articles-bottom {
     margin: 0;
     padding: 64px 21px 0 21px;
@@ -888,7 +863,7 @@ button {
   align-items: flex-end;
   justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .pages-button-wrapper {
     min-width: 231px;
     justify-content: flex-start;
