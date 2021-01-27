@@ -190,10 +190,6 @@ button {
 .main-article-opened {
   padding: 60px 0 0 0;
 }
-.main-wrapper {
-  /* margin: 0 340px; */
-  /* margin: 0 278px; */
-}
 @media screen and (max-width: 800px) {
   .main-wrapper {
     margin: 0 20px;
